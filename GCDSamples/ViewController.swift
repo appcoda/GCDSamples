@@ -28,6 +28,7 @@ class ViewController: UIViewController {
         
         // Uncomment the following method call to test
         
+    
         simpleQueues()
         
         // queuesWithQoS()
@@ -64,6 +65,7 @@ class ViewController: UIViewController {
     
     
     func queuesWithQoS() {
+        print("queuesWithQoS")
         let queue1 = DispatchQueue(label: "com.appcoda.queue1", qos: DispatchQoS.userInitiated)
         // let queue1 = DispatchQueue(label: "com.appcoda.queue1", qos: DispatchQoS.background)
         // let queue2 = DispatchQueue(label: "com.appcoda.queue2", qos: DispatchQoS.userInitiated)
